@@ -1,0 +1,6 @@
+always-run:
+  script: echo 'This should run when there is a commit '
+  only: 
+    - main
+  tags: 
+    - k8s-root
